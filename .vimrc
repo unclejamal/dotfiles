@@ -17,7 +17,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'wincent/Command-T'
+Bundle 'kien/ctrlp.vim'
 Bundle 'koron/nyancat-vim'
 
 " vim ui 
@@ -100,6 +100,9 @@ filetype plugin indent on " autodetect file types
 autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
 
+" colors of matching brackets
+hi MatchParen guibg=NONE guifg=blue gui=bold
+
 " highlighting
 set undofile
 
@@ -108,6 +111,7 @@ set nocompatible
 
 " shortcuts
 let mapleader = ","
+imap jj <Esc>
 
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>

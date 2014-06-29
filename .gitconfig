@@ -46,5 +46,7 @@
     # unclejamal
     tr = ls-tree --full-tree -r HEAD
 
+[core]
+    editor = vim
 [merge]
     tool = vimdiff

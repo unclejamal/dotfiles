@@ -61,7 +61,6 @@ set winheight=999
 set backspace=indent,eol,start " backspace for dummys
 set linespace=0 " No extra spaces between rows
 set number " Line numbers on
-set cursorline
 
 set showmatch " row matching brackets/parenthesis
 

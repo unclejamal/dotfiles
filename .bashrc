@@ -119,7 +119,5 @@ export GREP_OPTIONS="--color"
 . ~/dotfiles/bin/bashrc-path.sh
 . ~/dotfiles/bin/grb-git-prompt.sh
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

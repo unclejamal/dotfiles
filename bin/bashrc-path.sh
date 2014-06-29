@@ -5,7 +5,7 @@ export PATH=${UNCLEJAMAL_BASH}:${PATH}
 # unclejamal ruby
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-rvm use 2.1.0
+rvm use 2.1.2
 
 # unclejamal - java
 export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_05

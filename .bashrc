@@ -118,6 +118,3 @@ export GREP_OPTIONS="--color"
 
 . ~/dotfiles/bin/bashrc-path.sh
 . ~/dotfiles/bin/grb-git-prompt.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"

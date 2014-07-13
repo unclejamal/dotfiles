@@ -1,7 +1,7 @@
 # unclejamal - last commit (from Gary Bernhardt)
 . ~/dotfiles/bin/bash_colors.sh
 # not sure if git-completion is needed
-#. ~/dotfiles/bin/git-completion.bash
+. ~/dotfiles/bin/git-completion.bash
 
 function minutes_since_last_commit {
     now=`date +%s`

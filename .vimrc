@@ -1,4 +1,4 @@
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -6,15 +6,12 @@ Bundle 'gmarik/vundle'
 
 " my bundles
 Bundle 'scrooloose/syntastic'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'ervandew/supertab'
-Bundle 'kchmck/vim-coffee-script'
+" Bundle 'ervandew/supertab'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kien/ctrlp.vim'
@@ -22,14 +19,6 @@ Bundle 'koron/nyancat-vim'
 
 " vim ui 
 set mouse=a
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-set t_Co=16
-let g:solarized_termcolors=16
-colorscheme solarized
 
 if has('cmdline_info')
     set ruler                  	" show the ruler

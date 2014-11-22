@@ -116,5 +116,8 @@ fi
 # unclejamal config
 export GREP_OPTIONS="--color"
 
+# aliases
+#alias statslinesofcode='git ls-files| grep \'.*\.java\' | xargs wc -l | sort -n'
+
 . ~/dotfiles/bin/bashrc-path.sh
 . ~/dotfiles/bin/grb-git-prompt.sh

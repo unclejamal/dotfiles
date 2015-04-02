@@ -1,8 +1,7 @@
 # unclejamal - last commit (from Gary Bernhardt)
 . ~/dotfiles/bin/bash_colors.sh
-# not sure if git-completion is needed
-. ~/dotfiles/bin/git-completion.bash
 
+# Git prompt components
 function minutes_since_last_commit {
     now=`date +%s`
     last_commit=`git log --pretty=format:'%at' -1`
@@ -10,7 +9,6 @@ function minutes_since_last_commit {
     minutes_since_last_commit=$((seconds_since_last_commit/60))
     echo $minutes_since_last_commit
 }
-
 grb_git_prompt() {
     local g="$(__gitdir)"
     if [ -n "$g" ]; then
@@ -28,5 +26,4 @@ grb_git_prompt() {
         echo ${GIT_PROMPT}
     fi
 }
-
 PS1="\h:\W\$(grb_git_prompt) \u\$ "

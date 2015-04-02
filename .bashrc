@@ -13,7 +13,7 @@ esac
 HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
-shopt -s histappend
+# shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
@@ -115,9 +115,6 @@ fi
 
 # unclejamal config
 export GREP_OPTIONS="--color"
-
-# aliases
-#alias statslinesofcode='git ls-files| grep \'.*\.java\' | xargs wc -l | sort -n'
 
 . ~/dotfiles/bin/bashrc-path.sh
 . ~/dotfiles/bin/grb-git-prompt.sh

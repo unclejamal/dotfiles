@@ -8,7 +8,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 rvm use 2.1.2
 
 # unclejamal - java
-export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_25
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_60
 export PATH=${JAVA_HOME}/bin:${PATH}
 
 #unclejamal - maven
@@ -16,7 +16,7 @@ export M2_HOME=${HOME}/dev/java/tools/apache-maven-3.2.2
 export PATH=${M2_HOME}/bin:${PATH}
 
 #unclejamal - gradle
-export GRADLE_HOME=${HOME}/dev/java/tools/gradle-2.2
+export GRADLE_HOME=${HOME}/dev/java/tools/gradle-2.9
 export PATH=${GRADLE_HOME}/bin:${PATH}
 
 # unclejamal - android sdk

@@ -103,3 +103,5 @@ export GREP_OPTIONS="--color"
 . ~/dotfiles/bin/bashrc-path.sh
 . ~/dotfiles/bin/grb-git-prompt.sh
 . ~/dotfiles/bin/git-completion.bash
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

@@ -87,9 +87,9 @@ filetype plugin indent on " autodetect file types
 autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 
 " colors
-:set t_Co=256
+" :set t_Co=256
 :set background=dark
-:color grb256
+" :color grb256
 
 " colors of matching brackets
 hi MatchParen guibg=NONE guifg=blue gui=bold

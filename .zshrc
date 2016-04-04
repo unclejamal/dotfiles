@@ -69,3 +69,5 @@ export GREP_OPTIONS="--color"
 . ~/dotfiles/bin/bashrc-path.sh
 # . ~/dotfiles/bin/grb-git-prompt.sh
 # . ~/dotfiles/bin/git-completion.bash
+
+alias gr="./gradlew"
